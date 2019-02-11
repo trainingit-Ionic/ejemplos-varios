@@ -1,5 +1,8 @@
 {
-  "name": "cursoTrainingIT",
-  "integrations": {},
+  "name": "OtroNombre",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

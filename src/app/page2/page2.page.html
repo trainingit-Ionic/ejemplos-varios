@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>page2</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Tu latitud: {{coords?.latitude}}</p>
+  <p>Tu longitud: {{coords?.longitude}}</p>
+
+  <ion-button (click)="openNavigationApp()">Cómo llegar</ion-button>
+  <ion-button (click)="share()">Compartir mi ubicación</ion-button>
+</ion-content>
+
+<ion-footer>Pie de página</ion-footer>

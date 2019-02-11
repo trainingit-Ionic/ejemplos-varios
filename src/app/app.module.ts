@@ -8,9 +8,13 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MiprimercomponenteComponent } from './miprimercomponente/miprimercomponente.component';
+import { ListComponent } from './components/users/list/list.component';
+import { AddComponent } from './components/users/add/add.component';
+import { PruebaComponent } from './prueba/prueba.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, MiprimercomponenteComponent, ListComponent, AddComponent, PruebaComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
